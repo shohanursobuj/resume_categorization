@@ -53,6 +53,10 @@ def preprocess(resumeText):
     return resumeText
     
 def main(input_dir):
+    """
+    This function categorizes resumes in the input directory
+    :param input_dir: input directory containing resumes
+    """
     for filename in os.listdir(input_dir):
         if filename.endswith('.pdf'):
             pdfFileName = os.path.join(input_dir, filename)
