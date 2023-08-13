@@ -32,6 +32,14 @@ pip install -r requirements.txt
 
 ## 📦 Running the Application
 
+If you use conda environment then activate the environment first.
+
+```bash
+conda activate <env_name>
+```
+
+Then run the script with the following command:
+
 ```bash
 python script.py --input_dir <input_dir> 
 ```
@@ -41,6 +49,7 @@ For example:
 ```bash
 python script.py --input_dir ./test_data
 ```
+
 
 > By running the script will move the resumes to the respective folders according to the category of the resume and will create a `categorize_resume.csv` file in the current directory.
 
