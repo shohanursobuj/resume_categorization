@@ -1,3 +1,9 @@
+"""
+@Author: Md. Shohanur Islam Sobuj
+@Email: shohanursobuj@gmail.com
+@Description: This script categorizes resumes in the input directory
+@Usage: python script.py --input_dir resumes_folder
+"""
 import os
 import re
 import pickle
