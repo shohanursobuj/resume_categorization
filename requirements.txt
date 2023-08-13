@@ -1,1 +1,7 @@
 matplotlib
+PyPDF2
+Nltk
+numpy
+pandas
+scikit-learn
+xgboost
