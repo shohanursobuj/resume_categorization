@@ -15,14 +15,43 @@ This project uses Machine Learning and Natural Language Processing to categorize
 ## 🚀 Installation
 
 To run this project you need to clone this repository and install the dependencies.
+### Prerequisites
+- Python 3.9.0 or higher
+- pip 21.2.4 or higher
+- conda 4.10.3 or higher (optional)
 
-#### Clone this repository
+#### Step 1: Clone this repository
 
 ```bash
 git clone https://github.com/shohanursobuj/resume_categorization
+cd resume_categorization # change directory
 ```
 
-#### Install dependencies
+#### Step 2: Create virtual environment
+
+*Conda environment:*
+
+```bash
+conda create -n <env_name> python=3.10.0 # create virtual environment
+conda activate <env_name> # activate virtual environment
+```
+#### *virtualenv:*
+
+Windows OS:
+```bash
+python -m venv venv_name # create virtual environment
+venv_name\Scripts\activate # activate virtual environment
+```
+
+Linux/Mac OS:
+```bash
+python3 -m venv venv_name # create virtual environment
+source venv_name/bin/activate # activate virtual environment
+```
+>Replace `venv_name` with the desired name of your virtual environment.
+
+
+#### Step 3: Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -32,13 +61,9 @@ pip install -r requirements.txt
 
 ## 📦 Running the Application
 
-If you use conda environment then activate the environment first.
+#### Step 4: Run the script
 
-```bash
-conda activate <env_name>
-```
-
-Then run the script with the following command:
+Run the [`script.py`](script.py) file with the `--input_dir` argument to categorize the resumes.
 
 ```bash
 python script.py --input_dir <input_dir> 
