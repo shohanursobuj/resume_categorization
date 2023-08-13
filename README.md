@@ -39,7 +39,9 @@ python script.py --input_dir <input_dir>
 For example:
 
 ```bash
-python script.py --input_dir ./data
+python script.py --input_dir ./test_data
 ```
+
+> By running the script will move the resumes to the respective folders according to the category of the resume and will create a `categorize_resume.csv` file in the current directory.
 
 **Note:** This project is tested on Python 3.10.0
